@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "Portfolio website built with Node.js, Express, Pug, and jQuery ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oculv21/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "webdev"
+  ],
+  "author": "Olivia Culver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oculv21/Portfolio/issues"
+  },
+  "homepage": "https://github.com/oculv21/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
