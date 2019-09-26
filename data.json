@@ -7,7 +7,7 @@
            "technologies": ["HTML", "CSS", "Bootstrap"],
            "live_link": "https://oculv21.github.io/Love-Travel-Blog/",
            "github_link": "https://github.com/oculv21/Love-Travel-Blog",
-           "image_urls": []
+           "image_urls": ["/static/images/travel-blog-1.png", "/static/images/travel-blog-2.png", "/static/images/travel-blog-3.png", "/static/images/travel-blog-4.png"]
        },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://oculv21.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/oculv21/Random-Quote-Generator",
-            "image_urls": []
+            "image_urls": ["/static/images/RQG-1.png", "/static/images/RQG-2.png"]
         }, 
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://oculv21.github.io/List-Pagination-Project/",
             "github_link": "https://github.com/oculv21/List-Pagination-Project",
-            "image_urls": []
+            "image_urls": ["/static/images/list-pagination-1.png", "/static/images/list-pagination-2.png"]
         },
         {
             "id": 4,
@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
             "live_link": "https://oculv21.github.io/Interactive-Form/",
             "github_link": "https://github.com/oculv21/Interactive-Form",
-            "image_urls": []
+            "image_urls": ["/static/images/interactive-form-1.png", "/static/images/interaction-form-2.png", "/static/images/interactive-form-3.png"]
         },
         {
             "id": 5,
@@ -43,7 +43,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://oculv21.github.io/OOP-Guessing-Game/",
             "github_link": "https://github.com/oculv21/OOP-Guessing-Game",
-            "image_urls": []
+            "image_urls": ["/static/images/oop-game-1.png", "/static/images/oop-game-2.png", "/static/images/oop-game-3.png"]
         },
         {
             "id": 6,
@@ -52,7 +52,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
             "live_link": "https://oculv21.github.io/employee-directory/",
             "github_link": "https://github.com/oculv21/employee-directory",
-            "image_urls": []
+            "image_urls": ["/static/images/employee-api-1.png", "/static/images/employee-api-2.png", "/static/images/employee-api-3.png", "/static/images/employee-api-4.png"]
         }    
     ]
 }
