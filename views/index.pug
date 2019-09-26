@@ -15,13 +15,11 @@ block content
 
       each project in data
         .cell
-          a(href='#')
+          a(href= `/projects/${project.id}`)
             img.thumbnail(src= project.image_urls[0])
             h5= project.project_name
       
-        //- Use the Pug `each` iterator to create a project img, title and link in the markup for each of the projects you are showcasing.
-
-      //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
+  
       
 
       

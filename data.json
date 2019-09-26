@@ -1,7 +1,7 @@
 {
     "projects": [
        {
-           "id": 1,
+           "id": 0,
            "project_name": "Love Travel Blog",
            "description": "A clean and simple travel blog website created using Bootstrap. This site was created after I completed the Front End Web Dev Track at Treehouse.",
            "technologies": ["HTML", "CSS", "Bootstrap"],
@@ -10,7 +10,7 @@
            "image_urls": ["/static/images/travel-blog-1.png", "/static/images/travel-blog-2.png", "/static/images/travel-blog-3.png", "/static/images/travel-blog-4.png"]
        },
         {
-            "id": 2,
+            "id": 1,
             "project_name": "Random Quote Generator",
             "description": "An aesthetic random quote generator that presents quotes from famous African Americans. This project was created as part of the Treehouse FSJS Techdegree.",
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -19,7 +19,7 @@
             "image_urls": ["/static/images/RQG-1.png", "/static/images/RQG-2.png"]
         }, 
         {
-            "id": 3,
+            "id": 2,
             "project_name": "Student List Pagination",
             "description": "A long HTML-generated list of students that I've paginated using unobtrusive JavaScript. This project was created as part of the Treehouse FSJS Techdegree.",
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -28,25 +28,25 @@
             "image_urls": ["/static/images/list-pagination-1.png", "/static/images/list-pagination-2.png"]
         },
         {
-            "id": 4,
+            "id": 3,
             "project_name": "Interactive Full Stack Conf Form",
             "description": "An interactive form for a fictional conference that uses unobtrusive jQuery to alert users to errors upon submission and changes which elements are displayed on the page based on user selections. This project was created as part of the Treehouse FSJS Techdegree.",
             "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
             "live_link": "https://oculv21.github.io/Interactive-Form/",
             "github_link": "https://github.com/oculv21/Interactive-Form",
-            "image_urls": ["/static/images/interactive-form-1.png", "/static/images/interaction-form-2.png", "/static/images/interactive-form-3.png"]
+            "image_urls": ["/static/images/interactive-form-1.png", "/static/images/interactive-form-2.png", "/static/images/interactive-form-3.png"]
         },
         {
-            "id": 5,
+            "id": 4,
             "project_name": "Phrase Hunter",
             "description": "A word phrase guessing game using object oriented JavaScript. This project was created as part of the Treehouse FSJS Techdegree.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://oculv21.github.io/OOP-Guessing-Game/",
             "github_link": "https://github.com/oculv21/OOP-Guessing-Game",
-            "image_urls": ["/static/images/oop-game-1.png", "/static/images/oop-game-2.png", "/static/images/oop-game-3.png"]
+            "image_urls": ["/static/images/oop-game-1.png", "/static/images/oop-game-2.png", "/static/images/oop-game-3.png", "/static/images/oop-game-4.png", "/static/images/oop-game-5.png"]
         },
         {
-            "id": 6,
+            "id": 5,
             "project_name": "Awesome Startup Employee Directory",
             "description": "An employee directory for a fictional startup called Awesome Startup. Twelve employees are randomly generated from the Random User Generator API",
             "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
