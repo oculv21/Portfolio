@@ -1,10 +1,13 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'PT Serif', serif;
 }
 
+  h1, h2, h3, h4{
+    color: #372D45;
+  }
+
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -27,15 +30,15 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: #7194AB;
 }
 
 .button{
-  background-color: #333;
+  background-color: #603D52;
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #452C3B;
 }
 
 a{
@@ -44,6 +47,7 @@ a{
 
 a:hover{
   color: #111;
+  transform: scale(1.1);
 }
 
 .image{
@@ -58,20 +62,20 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #432D45;
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: #C9C5CE;
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #999;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -79,7 +83,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: #fff;
   }
 
 .portfolio-breadcrumb{
@@ -103,7 +107,7 @@ a:hover{
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #603D52;
   padding-bottom: 40px;
 }
 
@@ -114,6 +118,11 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+  }
+
+  .portfolio-index img:hover {
+    transform: scale(1.07);
+    transition-duration: ease-in-out;
   }
 
   .portfolio-index a{
@@ -145,6 +154,14 @@ a:hover{
   color: #444;
 }
 
+.portfolio-project img{
+  margin: 15px;
+}
+
 .portfolio-bio{
     line-height: 25px;
+}
+
+.title-bar {
+  background-color: #432D45;
 }
