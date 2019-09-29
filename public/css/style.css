@@ -68,7 +68,7 @@ a:hover{
 }
 
   .portfolio-me p{
-    font-size: 14px;
+    font-size: 16px;
     color: #C9C5CE;
   }
 
@@ -158,8 +158,9 @@ a:hover{
   margin: 15px;
 }
 
-.portfolio-bio{
+.portfolio-bio p{
     line-height: 25px;
+    font-size: 16px;
 }
 
 .title-bar {
