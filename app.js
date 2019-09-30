@@ -19,10 +19,14 @@ app.get('/projects/:id', (req, res) => {
     res.render('project', { data: data.projects[req.params.id]});
 });
 
-app.use((err, req, res, next) => {
-    res.status(err.status);
-    console.log(err.message);
-    res.render('error', {error: err});
-});
+app.use( (err, req, res, next) => {
+    res.locals.error = err;
+    console.error(err.stack);
+    res.render('error');
+  });
+
+app.use( (req, res, next) => {
+  res.status(404).render('404');
+})
 
 app.listen(3000, () => console.log("The application is running on port 3000!"));

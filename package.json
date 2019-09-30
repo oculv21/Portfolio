@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "Portfolio website built with Node.js, Express, Pug, and jQuery ",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": { 
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
