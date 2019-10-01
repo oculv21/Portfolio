@@ -29,4 +29,8 @@ app.use( (req, res, next) => {
   res.status(404).render('404');
 })
 
-app.listen(3000, () => console.log("The application is running on port 3000!"));
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port, () => console.log("The application is running!"));
