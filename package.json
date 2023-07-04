@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "type": "module",
   "version": "0.0.1",
   "description": "Portfolio website built with Node.js, Express, Pug, and jQuery ",
   "main": "app.js",
